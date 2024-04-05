@@ -706,14 +706,14 @@ section
 
 }
 
-@media screen and (max-width: 800px)
+/*@media screen and (max-width: 800px)
 {
     .contact-right-container
     {
         height:400px;
     }
 
-}
+}*/
 
 .contact-image {
     border-radius:10px;

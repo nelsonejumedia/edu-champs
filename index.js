@@ -4,7 +4,7 @@ function darkTheme() {
     $(window).scroll(function() {
         let pos = $(window).scrollTop();
         if(pos >= 100){
-            $(".navbar").css("background-color", "#0d0e09");
+            $(".navbar").css("background-color", "#161511");
             $(".nav-link").css("color", "#f8f6e1");
             $(".logo").attr("src", "images/logo.png");
         } else {

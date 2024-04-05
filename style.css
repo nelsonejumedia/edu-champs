@@ -729,7 +729,7 @@ section
 .p{
     color:black;
     font-size:15px;
-    margin:12px 0;
+    margin:17px 0 12px;
 }
 .contact-left form input,
 .contact-left form textarea

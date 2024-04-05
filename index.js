@@ -32,6 +32,7 @@ switchCheckbox.addEventListener("change", function () {
         $(".logo").attr("src", "images/logo-black.png");
       } else {
         $(".navbar").css("background-color", "transparent");
+        $(".nav-link").css("color", "white");
         $(".logo").attr("src", "images/logo.png");
       }
     });

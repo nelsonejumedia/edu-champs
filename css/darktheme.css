@@ -10,7 +10,7 @@ body, .feature, .detail, .faq, .faq-content{
 
 
 
-#text, #duty{
+.text, #duty{
     color:#f8f6e1;
 }
 .feature{

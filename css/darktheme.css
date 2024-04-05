@@ -5,7 +5,31 @@ body, .feature, .detail, .faq, .faq-content{
     color:#ba9448;
 }
 
+.switch-track {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #0d0e09;
+    border-radius: 17px;
+    cursor: pointer;
+    transition: background-color 0.4s;
+   
+}
 
+/* Style for the switch thumb */
+.switch-thumb {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    width: 30px;
+    height: 30px;
+    background-color: #161511;
+    border-radius: 50%;
+    transition: transform 0.4s;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+}
 
 
 
@@ -37,6 +61,10 @@ body, .feature, .detail, .faq, .faq-content{
 
 #form{
     background-color: #0d0e09;
+    box-shadow: inset 0 0 3px rgba(77, 76, 73, 0.2);
+    border: 2px inset rgba(100, 98, 91, 0.2); /* Inset border with light gray color */
+    border-radius: 7px;
+
 }
 
 .form-container{
@@ -54,4 +82,20 @@ body, .feature, .detail, .faq, .faq-content{
 .p{
     color:#f8f6e1;
    
+}
+
+
+.submit-btn
+{
+    color: #ba9448;
+    background: #161511;
+    box-shadow: 0 20px 25px 0 rgba(0, 0, 0, .7);
+
+}
+
+.submit-btn:hover
+{
+    transform: translateY(-5px);
+    background: #161511;
+    box-shadow: 0 0 2px 0 rgba(0, 0, 0, .7);
 }

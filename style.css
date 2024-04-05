@@ -694,6 +694,7 @@ section
     height: 600px;
     padding:30px;
     margin:10px 10px 50px;
+    box-shadow: 0 20px 25px 0 rgba(204, 203, 201, 0.7);
 }
 
 @media screen and (max-width: 750px)

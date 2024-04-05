@@ -1,3 +1,8 @@
+function lightTheme() {
+    $("#style").attr("href", "css/lighttheme.css");
+   }
+   
+
 function darkTheme() {
     $("#style").attr("href", "css/darktheme.css");
     $(".contact-logo").attr("src", "images/logo.png");
@@ -13,14 +18,19 @@ function darkTheme() {
         }
     });
    }
-   
-   function lightTheme() {
-    $("#style").attr("href", "css/lighttheme.css");
-   }
-   
-   function goldTheme() {
-    $("#style").attr("href", "css/goldtheme.css");
-   }
+
+    // JavaScript to handle toggle functionality
+    const switchCheckbox = document.querySelector('.switch-checkbox');
+
+    switchCheckbox.addEventListener('change', function() {
+        if (this.checked) {
+            console.log('Switch is ON');
+            darkTheme();
+        } else {
+            console.log('Switch is OFF');
+            lightTheme();
+        }
+    });
    
 
 $(document).ready(function(){

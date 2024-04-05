@@ -6,29 +6,17 @@ body, .feature, .detail, .faq, .faq-content{
 }
 
 .switch-track {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  
     background-color: #0d0e09;
-    border-radius: 17px;
-    cursor: pointer;
-    transition: background-color 0.4s;
+    
    
 }
 
 /* Style for the switch thumb */
 .switch-thumb {
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    width: 30px;
-    height: 30px;
+    
     background-color: #161511;
-    border-radius: 50%;
-    transition: transform 0.4s;
-    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.2);
+    
 }
 
 

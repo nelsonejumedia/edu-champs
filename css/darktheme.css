@@ -64,8 +64,8 @@ body, .feature, .detail, .faq, .faq-content{
 }
 
 
-input[type=text] {
-        color: #f8f6e1; /* Change this color to your preferred color */
+input[type=text], input[type=email] {
+        color: whitesmoke; /* Change this color to your preferred color */
     }
 
 .contact-right-container {

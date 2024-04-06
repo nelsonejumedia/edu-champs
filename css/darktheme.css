@@ -63,6 +63,11 @@ body, .feature, .detail, .faq, .faq-content{
     
 }
 
+
+input[type=text] {
+        color: #f8f6e1; /* Change this color to your preferred color */
+    }
+
 .contact-right-container {
     box-shadow: 0 20px 25px 0 rgba(0, 0, 0, .7);
 }
